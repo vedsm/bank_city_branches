@@ -15,5 +15,5 @@ run "npm install"
 For running the server :
 run "node server.js"
 then go to browser or postman or any service which you want to use and use the following APIs
-1. GET http://localhost:9000/branchfromifsc?branchfromifsc=<ifsc>
-2. GET http://localhost:9000/branchesfromnameandcity<name=<name>&city=<city>
+1. GET http://localhost:3000/branchfromifsc?branchfromifsc=<ifsc>
+2. GET http://localhost:3000/branchesfromnameandcity<name=<name>&city=<city>

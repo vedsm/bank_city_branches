@@ -68,6 +68,8 @@ app.get('/branchesfromnameandcity', (req,res) => {
 	res.status(200).send(banks);
 })
 
-app.listen(port);
+app.listen(process.env.PORT || 3000);
+
+console.log("the app is running on",process.env.PORT || 3000);
 
 module.exports = app;
